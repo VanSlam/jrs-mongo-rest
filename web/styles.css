@@ -1,61 +1,77 @@
 body {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 10px auto;
 }
 
-header,
-footer,
-main {
-	display: block;
-	width: 80%;
-	margin: 0 auto;
-	clear: both;
+#students {
+  background-color: pink;
+  padding: 50px 0px;
+  border: 1px solid #000026;
+}
+#students h1 {
+  text-align: center;
+}
+
+#side {
+  text-align: center;
 }
 
 header:before,
-header:after,
 footer:before,
-footer:after,
 main:before,
+header:after,
+footer:after,
 main:after {
-	content: '';
-	clear: both;
+  content: '';
+  clear: both;
 }
 
 header,
 footer {
-	background-color: hotpink;
-	color: #fff;
+  background-color: hotpink;
+  color: #fff;
 }
 
 nav {
-	display: block;
+  display: block;
 }
 
 nav > ul {
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
+
 nav li {
-	display: inline-block;
-	padding: 10px;
+  display: inline-block;
+  padding: 10px;
 }
+
 nav a {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
+
 nav li:hover {
-	background-color: blue;
+  background-color: purple;
 }
+
 nav li:hover a {
-	color: white;
+  color: white;
 }
+
 .row {
-	width: 100%;
-	display: block;
-	clear: both;
+  width: 100%;
+  display: block;
+  clear: both;
 }
+
 .col-1,
 .col-2,
 .col-3,
@@ -66,28 +82,35 @@ nav li:hover a {
 .col-8,
 .col-9,
 .col-10 {
-	display: inline-block;
-	vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .col-1 {
-	width: 8%;
+  width: 8%;
+  display: inline-block;
 }
+
 .col-2 {
-	width: 18%;
+  width: 19%;
 }
+
 .col-3 {
-	width: 28%;
+  width: 28%;
 }
+
 .col-4 {
-	width: 38%;
+  width: 38%;
 }
+
 .col-5 {
-	width: 48%;
+  width: 48%;
 }
+
 .col-6 {
-	width: 58%;
+  width: 58%;
 }
+
 .col-7 {
-	width: 68%;
+  width: 68%;
 }
